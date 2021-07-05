@@ -1,0 +1,42 @@
+{
+    "name": "soe",
+    "version": "1.0.0",
+    "description": "software SOE",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js",
+        "start": "node index.js",
+        "build": "webpack --config webpack.config.js",
+        "builddev": "webpack --mode development"
+    },
+    "author": "Amezaga-code",
+    "license": "ISC",
+    "dependencies": {
+        "@testing-library/user-event": "^13.1.9",
+        "aws-sdk": "^2.835.0",
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "html": "^1.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "jwt-simple": "^0.5.6",
+        "method-override": "^3.0.0",
+        "moment": "^2.29.1",
+        "morgan": "^1.10.0",
+        "mysql2": "^2.2.5",
+        "sendgrid": "^5.2.3",
+        "v-calendar": "^2.2.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.13",
+        "@babel/preset-env": "^7.12.13",
+        "@babel/preset-react": "^7.14.5",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.2.2",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "nodemon": "^2.0.9"
+    }
+}
